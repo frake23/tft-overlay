@@ -1,11 +1,17 @@
 import React from 'react';
 
-import {imageByName} from '../../utils/ImagesUtils.js';
+import {imageByName} from '../../utils/ImageUtils.js';
 
 function ItemImage(props) {
-    let image = imageByName(props.name);
+    const image = imageByName(props.name);
+
+    const ImgSize = {
+        width: props.size,
+        height: props.size
+    }
+
     return (
-        <img src={image} alt={props.name}></img>
+        <img src={image} alt={props.name} style={ImgSize}></img>
     );
 }
 

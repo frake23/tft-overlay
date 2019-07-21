@@ -1,0 +1,13 @@
+.descriptionBox {
+    background: #3D3F4F;
+    color: #fff;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    width: 100px;
+    border-radius: 3px;
+}
+
+.itemName {
+    font-size: 12px;
+    padding-top: 5px;
+}

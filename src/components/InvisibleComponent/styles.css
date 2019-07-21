@@ -1,0 +1,13 @@
+.closed {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    transform: translateX(-10px);
+}
+
+.open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+    transition: opacity .25s, transform .25s, visibility .25s;
+}
