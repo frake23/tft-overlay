@@ -1,0 +1,15 @@
+.pageWrapper {
+    display: inline-block;
+    height: 50px;
+    background: #2C2E3E;
+}
+
+.baseItems {
+    display: flex;
+    
+}
+
+.itemBox {
+    margin: 10px;
+    list-style: none;
+}

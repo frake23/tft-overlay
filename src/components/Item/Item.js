@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 
-import ItemImage from '../ItemImage/ItemImage.js';
 import InvisibleComponent from '../InvisibleComponent/InvisibleComponent.js';
-import ItemDescription from '../ItemDescription/ItemDescription.js'
+import ItemDescription from '../ItemDescription/ItemDescription.js';
 
-import "./styles.css";
+import './styles.css'
 
 class Item extends Component {
     constructor(props) {
         super(props);
+        this.handleOnMouseEnter = this.handleOnMouseEnter.bind(this);
+        this.handleOnMouseLeave = this.handleOnMouseLeave.bind(this);
         this.state = {
             showDescription: false
         }
@@ -32,15 +33,17 @@ class Item extends Component {
             height: this.props.imgSize
         }
 
+        const item = this.props.item;
+
         return (
-            <li className="item">
-                <div onMouseEnter={() => this.handleOnMouseEnter()} onMouseLeave={() => this.handleOnMouseLeave()} style={ImgSize} class="imgContainer">
-                    <ItemImage name={this.props.name} size={this.props.imgSize}/>
+            <div className="item">
+                <div onMouseEnter={this.handleOnMouseEnter} onMouseLeave={this.handleOnMouseLeave} style={ImgSize}>
+                    <img alt={item.fullName} src={item.imgSrc} style={ImgSize}></img>
                 </div>
                 <InvisibleComponent show={this.state.showDescription}>
-                    <ItemDescription itemName={this.props.name}/>
+                    <ItemDescription fullName={item.fullName} stats={item.stats} description={item.description}/>
                 </InvisibleComponent>
-            </li>
+            </div>
         )
     }
 }

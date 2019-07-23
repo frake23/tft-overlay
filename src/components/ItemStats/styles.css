@@ -1,0 +1,18 @@
+.stat-box {
+    display: flex;
+    justify-content: center;
+    margin: 0 2px
+}
+
+.stat-icon {
+    width: 15px;
+    height: 15px;
+    margin-right: 2px;
+}
+
+.stats {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

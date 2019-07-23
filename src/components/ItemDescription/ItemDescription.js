@@ -1,16 +1,17 @@
 import React from 'react';
 
-import {itemByName} from '../../utils/DescriptionUtils.js';
+import ItemStats from '../ItemStats/ItemStats.js';
 
 import './styles.css'
 
 function ItemDescription(props) {
-    const item = itemByName(props.itemName);
     return(
         <div className="descriptionBox">
             <h1 className="itemName">
-                {item.fullName}
+                {props.fullName}
             </h1>
+            {props.stats && <ItemStats stats={props.stats}></ItemStats>}
+            {props.description && <p className="description">{props.description}</p>}
         </div>
     )
 }

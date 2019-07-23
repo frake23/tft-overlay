@@ -3,11 +3,19 @@
     color: #fff;
     text-align: center;
     font-family: Roboto, sans-serif;
-    width: 100px;
+    max-width: 300px;
     border-radius: 3px;
+    font-size: 12px;
+    padding: 5px 10px;
+    position: absolute;
+    left: 5px;
 }
 
 .itemName {
-    font-size: 12px;
-    padding-top: 5px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.description {
+    margin-bottom: 5px;
 }

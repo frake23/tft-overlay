@@ -1,22 +1,3 @@
 .item {
-    position: relative;
-    cursor: default;
-    list-style: none;
-}
-
-.description {
-    position: absolute;
-    left: 10px;
-    background: #3D3F4F;
-    color: #fff;
-    text-align: center;
-    font-family: Roboto, sans-serif;
-    width: 100px;
-    min-height: 40px;
-    border-radius: 3px;
-    transition: opacity .125s, transform .125s, visibility .125s;
-}
-
-.imgContainer {
-    margin: 5px;
+    display: flex;
 }

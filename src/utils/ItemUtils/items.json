@@ -1,0 +1,87 @@
+{
+    "baseItems": [
+        {
+            "id": "bf",
+            "fullName": "B.F. Sword",
+            "stats": [
+                {
+                    "name": "ad",
+                    "value": "+20"
+                }
+            ],
+            "description": null
+        },
+        {
+            "id": "bow",
+            "fullName": "Recurve Bow",
+            "stats": [
+                {
+                    "name": "as",
+                    "value": "+20%"
+                }
+            ],
+            "description": null
+        },
+        {
+            "id": "rod",
+            "fullName": "Needlessly Large Rod",
+            "stats": [
+                {
+                    "name": "ap",
+                    "value": "+20%"
+                }
+            ],
+            "description": null
+        },
+        {
+            "id": "tear",
+            "fullName": "Tear of the Goddess",
+            "stats": [
+                {
+                    "name": "mana",
+                    "value": "+20"
+                }
+            ],
+            "description": null
+        },
+        {
+            "id": "belt",
+            "fullName": "Giant’s Belt",
+            "stats": [
+                {
+                    "name": "hp",
+                    "value": "+200"
+                }
+            ],
+            "description": null
+        },
+        {
+            "id": "vest",
+            "fullName": "Chain Vest",
+            "stats": [
+                {
+                    "name": "ar",
+                    "value": "+20"
+                }
+            ],
+            "description": null
+        },
+        {
+            "id": "cloak",
+            "fullName": "Negatron Cloak",
+            "stats": [
+                {
+                    "name": "mr",
+                    "value": "+20"
+                }
+            ],
+            "description": null
+        },
+        {
+            "id": "spatula",
+            "fullName": "Spatula",
+            "stats": null,
+            "description": "It must do something"
+        }
+    ]
+}

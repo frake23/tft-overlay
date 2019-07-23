@@ -9,5 +9,5 @@
     opacity: 1;
     visibility: visible;
     transform: translateX(0);
-    transition: opacity .25s, transform .25s, visibility .25s;
+    transition: opacity .15s, transform .15s, visibility .15s;
 }
