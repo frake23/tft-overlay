@@ -1,0 +1,20 @@
+.recipes-box {
+    padding: 5px;
+    display: inline-block;
+    background: #383A4A;
+    position: absolute;
+    top: 13px;
+    left: -29px;
+    right: -29px;
+    border-radius: 3px;
+}
+
+.recipes-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.recipes-item {
+    margin: 5px 3px;
+    list-style: none;
+}

@@ -8,5 +8,6 @@ function importAllImages(r) {
 
 const itemsImages = importAllImages(require.context("../../images/items", false, /\.(png|jpe?g|svg)$/));
 const statsImages = importAllImages(require.context("../../images/stats", false, /\.(png|jpe?g|svg)$/));
+const icons = importAllImages(require.context("../../images/icons", false, /\.(png|jpe?g|svg)$/));
 
-export {itemsImages, statsImages}
+export {itemsImages, statsImages, icons}

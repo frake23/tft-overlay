@@ -9,3 +9,12 @@
   font-size: 100%;
   vertical-align: baseline;
 }
+
+
+.App {
+    margin:20px;
+}
+
+html, body {
+    width: fit-content;
+}

@@ -83,5 +83,151 @@
             "stats": null,
             "description": "It must do something"
         }
+    ],
+    "combinedItems": [
+        {
+            "id": "infinityEdge",
+            "fullName": "Infinity Edge",
+            "stats": [
+                {
+                    "name": "ad",
+                    "value": "+40"
+                }
+            ],
+            "description": "Critical Strikes deal +100% damage",
+            "recipe": [
+                "bf",
+                "bf"
+            ]
+        },
+        {
+            "id": "swordOfTheDivine",
+            "fullName": "Sword of the Divine",
+            "stats": [
+                {
+                    "name": "ad",
+                    "value": "+20"
+                },
+                {
+                    "name": "as",
+                    "value": "+20%"
+                }
+            ],
+            "description": "Every 1s gain a 5% chance to gain 100% Critical Strike",
+            "recipe": [
+                "bf",
+                "bow"
+            ]
+        },
+        {
+            "id": "gunblade",
+            "fullName": "Hextech Gunblade",
+            "stats": [
+                {
+                    "name": "ad",
+                    "value": "+20"
+                },
+                {
+                    "name": "ap",
+                    "value": "+20%"
+                }
+            ],
+            "description": "Heal for 33% of all damage dealt",
+            "recipe": [
+                "bf",
+                "rod"
+            ]
+        },
+        {
+            "id": "shojin",
+            "fullName": "Spear of Shojin",
+            "stats": [
+                {
+                    "name": "ad",
+                    "value": "+20"
+                },
+                {
+                    "name": "mana",
+                    "value": "+20"
+                }
+            ],
+            "description": "After casting, gain 15% of max mana per attack",
+            "recipe": [
+                "bf",
+                "tear"
+            ]
+        },
+        {
+            "id": "zekesHerald",
+            "fullName": "Zeke's Herald",
+            "stats": [
+                {
+                    "name": "ad",
+                    "value": "+20"
+                },
+                {
+                    "name": "hp",
+                    "value": "+200"
+                }
+            ],
+            "description": "On start of combat, allies 2 spaces to the left and right gain +15% Attack Speed",
+            "recipe": [
+                "bf",
+                "belt"
+            ]
+        },
+        {
+            "id": "guardianAngel",
+            "fullName": "Guardian Angel",
+            "stats": [
+                {
+                    "name": "ad",
+                    "value": "+20"
+                },
+                {
+                    "name": "ar",
+                    "value": "+20"
+                }
+            ],
+            "description": "Revives champ with 1000 HP after 2 seconds",
+            "recipe": [
+                "bf",
+                "vest"
+            ]
+        },
+        {
+            "id": "bloodthirster",
+            "fullName": "The Bloodthirster",
+            "stats": [
+                {
+                    "name": "ad",
+                    "value": "+20"
+                },
+                {
+                    "name": "mr",
+                    "value": "+20"
+                }
+            ],
+            "description": "Attacks heal for 50% of damage",
+            "recipe": [
+                "bf",
+                "cloak"
+            ]
+        },
+        {
+            "id": "ghostblade",
+            "fullName": "Youmuu’s Ghostblade",
+            "stats": [
+                {
+                    "name": "ad",
+                    "value": "+40"
+                }
+            ],
+            "description": "Wearer is also an Assassin",
+            "recipe": [
+                "bf",
+                "spatula"
+            ]
+        }
     ]
 }

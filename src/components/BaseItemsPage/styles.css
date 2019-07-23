@@ -6,10 +6,4 @@
 
 .baseItems {
     display: flex;
-    
-}
-
-.itemBox {
-    margin: 10px;
-    list-style: none;
 }

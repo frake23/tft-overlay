@@ -1,0 +1,14 @@
+.recipe-list {
+    display: flex;
+    align-items: center;
+}
+
+.recipe-item {
+    margin: 2px;
+    list-style: none;   
+}
+
+.arrow-image {
+    width: 10px;
+    height: 7px;
+}

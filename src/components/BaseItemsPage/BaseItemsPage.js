@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Item from "../Item/Item";
+
+import BaseItem from "../BaseItem/BaseItem.js";
 
 import './styles.css';
 
@@ -16,11 +17,9 @@ class BaseItemsPage extends Component {
             <div className="pageWrapper">
                 <ul className="baseItems">
                     {
-                        this.props.items.map((item) => {
+                        this.props.recipes.map((recipe) => {
                             return (
-                                <li className="itemBox">
-                                    <Item item={item} imgSize="30px"/>
-                                </li>
+                                <BaseItem item={recipe.baseItem} recipes={recipe.to} key={recipe.baseItem.id} arrowIcon={this.props.icons.arrow}/>
                             )
                         })
                     }

@@ -1,0 +1,8 @@
+
+.baseItemBox {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

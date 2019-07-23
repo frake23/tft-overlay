@@ -8,7 +8,13 @@ const isDev = require("electron-is-dev");
 let mainWindow;
 
 function createWindow() {
-    mainWindow = new BrowserWindow({width: 330, height:500});
+    mainWindow = new BrowserWindow({
+        width: 900, 
+        height:900, 
+        frame: false, 
+        transparent: true,
+        alwaysOnTop: true
+    });
     mainWindow.loadURL(isDev ? 'http://127.0.0.1:3000/': `file://${path.join(__dirname, '../build/index.html')}`);
     if (isDev) {
         mainWindow.webContents.openDevTools();
