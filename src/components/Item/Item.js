@@ -37,10 +37,10 @@ class Item extends Component {
 
         return (
             <div className="item">
-                <div onMouseEnter={this.handleOnMouseEnter} onMouseLeave={this.handleOnMouseLeave} style={ImgSize}>
+                <div onMouseEnter={this.handleOnMouseEnter} onMouseLeave={this.handleOnMouseLeave} style={ImgSize} onClick={this.props.imgOnClick}>
                     <img alt={item.fullName} src={item.imgSrc} style={ImgSize}></img>
                 </div>
-                <InvisibleComponent show={this.state.showDescription}>
+                <InvisibleComponent show={this.state.showDescription} transform="X">
                     <ItemDescription fullName={item.fullName} stats={item.stats} description={item.description}/>
                 </InvisibleComponent>
             </div>

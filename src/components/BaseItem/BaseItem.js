@@ -7,10 +7,11 @@ import BaseItemRecipes from '../BaseItemRecipes/BaseItemRecipes.js';
 import './styles.css';
 
 function BaseItem(props) {
+    console.log(props.item.id)
     return (
         <li className="baseItemBox">
-            <Item item={props.item} imgSize="30px"/>
-            <InvisibleComponent show={false}>
+            <Item item={props.item} imgSize="30px" imgOnClick={props.onClick}/>
+            <InvisibleComponent show={props.showRecipes} transform="Y">
                 <BaseItemRecipes recipes={props.recipes} arrowIcon={props.arrowIcon}/>
             </InvisibleComponent>
         </li>

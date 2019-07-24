@@ -28,7 +28,7 @@
             "stats": [
                 {
                     "name": "ap",
-                    "value": "+20%"
+                    "value": "+20"
                 }
             ],
             "description": null
@@ -129,7 +129,7 @@
                 },
                 {
                     "name": "ap",
-                    "value": "+20%"
+                    "value": "+20"
                 }
             ],
             "description": "Heal for 33% of all damage dealt",
@@ -226,6 +226,481 @@
             "description": "Wearer is also an Assassin",
             "recipe": [
                 "bf",
+                "spatula"
+            ]
+        },
+        {
+            "id": "rapidFirecannon",
+            "fullName": "Rapid Fire Cannon",
+            "stats": [
+                {
+                    "name": "as",
+                    "value": "+40%"
+                }
+            ],
+            "description": "Attacks cannot be dodged. Attack Range is doubled",
+            "recipe": [
+                "bow",
+                "bow"
+            ]
+        },
+        {
+            "id": "rageblade",
+            "fullName": "Guinsoo's Rageblade",
+            "stats": [
+                {
+                    "name": "as",
+                    "value": "+20%"
+                },
+                {
+                    "name": "ap",
+                    "value": "+20"
+                }
+            ],
+            "description": "Attacks give 4% Attack Speed. Stacks infinitely",
+            "recipe": [
+                "bow",
+                "rod"
+            ]
+        },
+        {
+            "id": "stattik",
+            "fullName": "Stattik shiv",
+            "stats": [
+                {
+                    "name": "as",
+                    "value": "+20%"
+                },
+                {
+                    "name": "mana",
+                    "value": "+20"
+                }
+            ],
+            "description": "Every 3rd attack deals 100 splash magical damage to 3 enemies",
+            "recipe": [
+                "bow",
+                "tear"
+            ]
+        },
+        {
+            "id": "titanicHydra",
+            "fullName": "Titanic Hydra",
+            "stats": [
+                {
+                    "name": "as",
+                    "value": "+20%"
+                },
+                {
+                    "name": "hp",
+                    "value": "+200"
+                }
+            ],
+            "description": "Attacks deal 10% of the wearer's max HP as splash",
+            "recipe": [
+                "bow",
+                "belt"
+            ]
+        },
+        {
+            "id": "pd",
+            "fullName": "Phantom Dancer",
+            "stats": [
+                {
+                    "name": "as",
+                    "value": "+20%"
+                },
+                {
+                    "name": "ar",
+                    "value": "+20"
+                }
+            ],
+            "description": "Wearer dodges all Critical Strikes",
+            "recipe": [
+                "bow",
+                "vest"
+            ]
+        },
+        {
+            "id": "swordOfTheDivine",
+            "fullName": "Sword of the Divine",
+            "stats": [
+                {
+                    "name": "as",
+                    "value": "+20%"
+                },
+                {
+                    "name": "mr",
+                    "value": "+20"
+                }
+            ],
+            "description": "Attacks have a low chance to Shrink (-1 enemy star, down to level 0)",
+            "recipe": [
+                "bow",
+                "cloak"
+            ]
+        },
+        {
+            "id": "botrk",
+            "fullName": "Blade of the Ruined King",
+            "stats": [
+                {
+                    "name": "as",
+                    "value": "+40%"
+                }
+            ],
+            "description": "Wearer is also an Blademaster",
+            "recipe": [
+                "bow",
+                "spatula"
+            ]
+        },
+        {
+            "id": "rabadon",
+            "fullName": "Rabadon's Deathcap",
+            "stats": [
+                {
+                    "name": "ap",
+                    "value": "+40"
+                }
+            ],
+            "description": "Wearer's Ability Damage increased by 50%",
+            "recipe": [
+                "rod",
+                "rod"
+            ]
+        },
+        {
+            "id": "morello",
+            "fullName": "Morellonomicon",
+            "stats": [
+                {
+                    "name": "ap",
+                    "value": "+20"
+                },
+                {
+                    "name": "hp",
+                    "value": "+200"
+                }
+            ],
+            "description": "Spells burn for 15% of max HP over 5s and disable healing",
+            "recipe": [
+                "rod",
+                "belt"
+            ]
+        },
+        {
+            "id": "luden",
+            "fullName": "Luden's Echo",
+            "stats": [
+                {
+                    "name": "ap",
+                    "value": "+20"
+                },
+                {
+                    "name": "hp",
+                    "value": "+200"
+                }
+            ],
+            "description": "eal 200 splash damage on ability hit",
+            "recipe": [
+                "rod",
+                "tear"
+            ]
+        },
+        {
+            "id": "locket",
+            "fullName": "Locket of the Iron Solari",
+            "stats": [
+                {
+                    "name": "ap",
+                    "value": "+20"
+                },
+                {
+                    "name": "hp",
+                    "value": "+200"
+                }
+            ],
+            "description": "On start of combat, allies 2 spaces to the left and right gain 200 shield",
+            "recipe": [
+                "rod",
+                "vest"
+            ]
+        },
+        {
+            "id": "ionicSpark",
+            "fullName": "Ionic Spark",
+            "stats": [
+                {
+                    "name": "ap",
+                    "value": "+20"
+                },
+                {
+                    "name": "mr",
+                    "value": "+20"
+                }
+            ],
+            "description": "Whenever an enemy casts a spell they take 200 true damage",
+            "recipe": [
+                "rod",
+                "cloak"
+            ]
+        },
+        {
+            "id": "yuumi",
+            "fullName": "Yuumi",
+            "stats": [
+                {
+                    "name": "ap",
+                    "value": "+40"
+                }
+            ],
+            "description": "Wearer is also a Sorcerer",
+            "recipe": [
+                "rod",
+                "spatula"
+            ]
+        },
+        {
+            "id": "seraph",
+            "fullName": "Seraph's Embrace",
+            "stats": [
+                {
+                    "name": "mana",
+                    "value": "+40"
+                }
+            ],
+            "description": "Regain 20 mana each time a spell is cast",
+            "recipe": [
+                "tear",
+                "tear"
+            ]
+        },
+        {
+            "id": "redemption",
+            "fullName": "Redemption",
+            "stats": [
+                {
+                    "name": "mana",
+                    "value": "+20"
+                },
+                {
+                    "name": "hp",
+                    "value": "+200"
+                }
+            ],
+            "description": "Upon reaching 25% health, heal all nearby allies for 1000 Health",
+            "recipe": [
+                "tear",
+                "belt"
+            ]
+        },
+        {
+            "id": "frozenHeart",
+            "fullName": "Frozen Heart",
+            "stats": [
+                {
+                    "name": "mana",
+                    "value": "+20"
+                },
+                {
+                    "name": "ar",
+                    "value": "+20"
+                }
+            ],
+            "description": "Adjacent enemies lose 25% Attack Speed",
+            "recipe": [
+                "tear",
+                "vest"
+            ]
+        },
+        {
+            "id": "hush",
+            "fullName": "Hush",
+            "stats": [
+                {
+                    "name": "mana",
+                    "value": "+20"
+                },
+                {
+                    "name": "mr",
+                    "value": "+20"
+                }
+            ],
+            "description": "Attacks have a high chance to Silence",
+            "recipe": [
+                "tear",
+                "cloak"
+            ]
+        },
+        {
+            "id": "darkin",
+            "fullName": "Darkin",
+            "stats": [
+                {
+                    "name": "mana",
+                    "value": "+40"
+                }
+            ],
+            "description": "Wearer is also a Demon",
+            "recipe": [
+                "tear",
+                "spatula"
+            ]
+        },
+        {
+            "id": "warmog",
+            "fullName": "Warmog's Armor",
+            "stats": [
+                {
+                    "name": "hp",
+                    "value": "+400"
+                }
+            ],
+            "description": "Regenerate 6% max Health per second",
+            "recipe": [
+                "belt",
+                "belt"
+            ]
+        },
+        {
+            "id": "redBuff",
+            "fullName": "Red Buff",
+            "stats": [
+                {
+                    "name": "hp",
+                    "value": "+200"
+                },
+                {
+                    "name": "ar",
+                    "value": "+20"
+                }
+            ],
+            "description": "Attacks burn for 13% of max HP over 5s and disable healing",
+            "recipe": [
+                "belt",
+                "vest"
+            ]
+        },
+        {
+            "id": "zephyr",
+            "fullName": "Zephyr",
+            "stats": [
+                {
+                    "name": "hp",
+                    "value": "+200"
+                },
+                {
+                    "name": "mr",
+                    "value": "+20"
+                }
+            ],
+            "description": "On start of combat, banish an enemy for 5 seconds",
+            "recipe": [
+                "belt",
+                "cloak"
+            ]
+        },
+        {
+            "id": "frozenMallet",
+            "fullName": "Frozen Mallet",
+            "stats": [
+                {
+                    "name": "hp",
+                    "value": "+400"
+                }
+            ],
+            "description": "Wearer is also a Glacial",
+            "recipe": [
+                "belt",
+                "spatula"
+            ]
+        },
+        {
+            "id": "thornmail",
+            "fullName": "Thornmail",
+            "stats": [
+                {
+                    "name": "ar",
+                    "value": "+40"
+                }
+            ],
+            "description": "Reflect 100% of mitigated damage taken from attacks as true damage",
+            "recipe": [
+                "vest",
+                "vest"
+            ]
+        },
+        {
+            "id": "swordBreaker",
+            "fullName": "Sword Breaker",
+            "stats": [
+                {
+                    "name": "ar",
+                    "value": "+20"
+                },
+                {
+                    "name": "mr",
+                    "value": "+20"
+                }
+            ],
+            "description": "Attacks have a chance to disarm",
+            "recipe": [
+                "vest",
+                "cloak"
+            ]
+        },
+        {
+            "id": "knightsVow",
+            "fullName": "Knight's Vow",
+            "stats": [
+                {
+                    "name": "ar",
+                    "value": "+40"
+                }
+            ],
+            "description": "Wearer is also a Knight",
+            "recipe": [
+                "vest",
+                "spatula"
+            ]
+        },
+        {
+            "id": "claw",
+            "fullName": "Dragon's Claw",
+            "stats": [
+                {
+                    "name": "mr",
+                    "value": "+40"
+                }
+            ],
+            "description": "83% resistance to magic damage",
+            "recipe": [
+                "cloak",
+                "cloak"
+            ]
+        },
+        {
+            "id": "runaan",
+            "fullName": "Runaan's Hurricane",
+            "stats": [
+                {
+                    "name": "mr",
+                    "value": "+40"
+                }
+            ],
+            "description": "Attacks hit 1 additional enemy. This extra hit does 25% damage and applies on-hit effects",
+            "recipe": [
+                "cloak",
+                "spatula"
+            ]
+        },
+        {
+            "id": "forceOfNature",
+            "fullName": "Force of Nature",
+            "stats": null,
+            "description": "Gain + team size",
+            "recipe": [
+                "spatula",
                 "spatula"
             ]
         }

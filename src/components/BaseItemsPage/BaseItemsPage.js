@@ -8,8 +8,16 @@ class BaseItemsPage extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            activeItemRecipe: null
+            showItemRecipesIndex: null
         }
+    }
+
+    handleBaseItemOnClick(index) {
+        index !== this.state.showItemRecipesIndex ? this.setState({
+            showItemRecipesIndex: index
+        }):  this.setState({
+            showItemRecipesIndex: null
+        })
     }
 
     render() {
@@ -17,9 +25,16 @@ class BaseItemsPage extends Component {
             <div className="pageWrapper">
                 <ul className="baseItems">
                     {
-                        this.props.recipes.map((recipe) => {
+                        this.props.recipes.map((recipe, index) => {
                             return (
-                                <BaseItem item={recipe.baseItem} recipes={recipe.to} key={recipe.baseItem.id} arrowIcon={this.props.icons.arrow}/>
+                                <BaseItem
+                                    item={recipe.baseItem}
+                                    recipes={recipe.to}
+                                    key={recipe.baseItem.id}
+                                    arrowIcon={this.props.icons.arrow}
+                                    showRecipes={index === this.state.showItemRecipesIndex}
+                                    onClick={() => this.handleBaseItemOnClick(index)}
+                                />
                             )
                         })
                     }

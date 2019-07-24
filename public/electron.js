@@ -9,11 +9,14 @@ let mainWindow;
 
 function createWindow() {
     mainWindow = new BrowserWindow({
-        width: 900, 
-        height:900, 
+        width: 1000, 
+        height: 500, 
         frame: false, 
         transparent: true,
-        alwaysOnTop: true
+        alwaysOnTop: true,
+        webPreferences:{
+            nodeIntegration:true,
+        }
     });
     mainWindow.loadURL(isDev ? 'http://127.0.0.1:3000/': `file://${path.join(__dirname, '../build/index.html')}`);
     if (isDev) {
@@ -25,13 +28,13 @@ function createWindow() {
 app.on('ready', createWindow);
 
 app.on('window-all-closed', () => {
-    if (process.platform != "darwin") {
+    if (process.platform !== "darwin") {
         app.quit();
     }
 })
 
 app.on('activate', () => {
-    if (mainWindow == null) {
+    if (mainWindow === null) {
         createWindow();
     }
 })
